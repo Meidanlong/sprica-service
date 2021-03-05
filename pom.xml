@@ -10,6 +10,10 @@
     <modules>
         <module>dao</module>
         <module>provider</module>
+        <module>biz</module>
+        <module>service</module>
+        <module>task</module>
+        <module>export</module>
     </modules>
 
     <packaging>pom</packaging>
