@@ -1,5 +1,7 @@
 package com.wtrue.backend;
 
+import com.wtrue.backend.dto.UserDto;
+
 /**
  * @description:
  * @author: meidanlong
@@ -7,5 +9,5 @@ package com.wtrue.backend;
  */
 public interface IUserBiz {
 
-    public void add();
+    public Integer add(UserDto dto);
 }

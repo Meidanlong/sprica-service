@@ -43,19 +43,4 @@ public class UserDto {
      * 支付宝ID
      */
     private String zfbId;
-
-    /**
-     * 是否删除
-     */
-    private String deleted;
-
-    /**
-     * 创建时间
-     */
-    private Date createdTime;
-
-    /**
-     * 更新时间
-     */
-    private Date updatedTime;
 }

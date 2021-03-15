@@ -1,6 +1,8 @@
 package com.wtrue.backend.adapter;
 
 import com.wtrue.backend.dto.UserDto;
+import com.wtrue.backend.po.users.Users;
+import com.wtrue.backend.request.UserAddReq;
 
 /**
  * @description:
@@ -9,4 +11,32 @@ import com.wtrue.backend.dto.UserDto;
  */
 public class UserAdapter {
 
+    public static UserDto addReqToDto(UserAddReq req){
+        if (req == null){
+            return null;
+        }
+
+        UserDto dto = new UserDto();
+        dto.setUserName(req.getUserName());
+        dto.setIdNum(req.getIdNum());
+        dto.setPhone(req.getPhone());
+
+        return dto;
+    }
+
+    public static Users dtoToPo(UserDto dto){
+        if(dto == null){
+            return null;
+        }
+
+        Users users = new Users();
+        users.setUserId(dto.getUserId());
+        users.setUserName(dto.getUserName());
+        users.setIdNum(dto.getIdNum());
+        users.setPhone(dto.getPhone());
+        users.setWxId(dto.getWxId());
+        users.setZfbId(dto.getZfbId());
+
+        return users;
+    }
 }
