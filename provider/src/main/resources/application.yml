@@ -1,0 +1,18 @@
+
+# model
+server:
+  port: 8000
+
+spring:
+  application:
+    name: model
+  datasource:
+    url: jdbc:mysql://localhost:3306/model
+    hikari:
+      username: root
+      password: root123
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
