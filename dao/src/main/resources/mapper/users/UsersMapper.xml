@@ -5,8 +5,15 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="username" jdbcType="VARCHAR" property="username" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="enabled" jdbcType="BIT" property="enabled" />
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="ID_NUM" jdbcType="VARCHAR" property="idNum" />
+    <result column="WX_ID" jdbcType="VARCHAR" property="wxId" />
+    <result column="ZFB_ID" jdbcType="VARCHAR" property="zfbId" />
+    <result column="DELETED" jdbcType="VARCHAR" property="deleted" />
+    <result column="CREATED_TIME" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="UPDATED_TIME" jdbcType="TIMESTAMP" property="updatedTime" />
   </resultMap>
 </mapper>

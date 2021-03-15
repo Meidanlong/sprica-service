@@ -5,7 +5,7 @@
       "chnname": "模版",
       "entities": [
         {
-          "title": "用户表",
+          "title": "users",
           "fields": [
             {
               "name": "ID",
@@ -126,8 +126,8 @@
               "relationNoShow": true
             }
           ],
-          "chnname": "USER",
-          "remark": "用户表"
+          "chnname": "用户表",
+          "remark": "记录用户基本信息"
         }
       ],
       "graphCanvas": {
@@ -630,11 +630,14 @@
       }
     ],
     "defaultFieldsType": "1",
-    "javaConfig": {},
+    "javaConfig": {
+      "JAVA_HOME": "/Users/meidanlong/Downloads/java/8",
+      "DB_DRIVE": []
+    },
     "sqlConfig": ";",
     "dbs": [
       {
-        "name": "",
+        "name": "model",
         "defaultDB": true,
         "properties": {
           "driver_class_name": "com.mysql.cj.jdbc.Driver",
