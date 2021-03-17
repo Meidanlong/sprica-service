@@ -7,7 +7,7 @@ spring:
   application:
     name: model-server
   datasource:
-    url: jdbc:mysql://localhost:3306/model
+    url: jdbc:mysql://103.45.105.132:3306/model
     hikari:
       username: root
       password: root123
@@ -15,4 +15,4 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 103.45.105.132:8848
