@@ -11,5 +11,16 @@
 
     <artifactId>export</artifactId>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
 </project>
