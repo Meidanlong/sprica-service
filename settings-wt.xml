@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <settings> 
+ <localRepository>~/.m2/repository</localRepository>
+      <!--nexus服务器,id为组仓库name-->
+    <servers>  
+        <server>  
+            <id>wtrue-model-group</id>  
+            <username>admin</username>  
+            <password>Cintown@942</password>  
+        </server>
+        <server>  
+            <id>wtrue-model-hosted</id>  
+            <username>admin</username>  
+            <password>Cintown@942</password>  
+        </server>
+        <server>  
+            <id>wtrue-model-hosted-snapshot</id>
+            <username>admin</username>  
+            <password>Cintown@942</password>  
+        </server>
+    </servers>
+    <mirrors>
+        <mirror>
+            <id>wtrue-model-group</id>
+            <name>wtrue-model-group</name>
+            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-group/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+    <profiles>
+        <profile>
+            <id>nexus</id> 
+            <repositories>
+                <repository>
+                    <id>nexus</id>
+                    <name>local private nexus</name>
+                    <url>http://maven.oschina.net/content/groups/public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>nexus</id>
+                    <name>local private nexus</name>
+                    <url>http://maven.oschina.net/content/groups/public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+</settings>
