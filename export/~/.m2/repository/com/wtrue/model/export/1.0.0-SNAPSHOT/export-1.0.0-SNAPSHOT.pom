@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>model</artifactId>
+        <groupId>com.wtrue.model</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>export</artifactId>
+
+    <distributionManagement>
+        <repository>
+            <id>wtrue-model-hosted</id>
+            <name>Wtrue Nexus Release Repository</name>
+            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted/</url>
+        </repository>
+        <snapshotRepository>
+            <id>wtrue-model-hosted-snapshot</id>
+            <name>Wtrue Nexus Snapshot Repository</name>
+            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+</project>
