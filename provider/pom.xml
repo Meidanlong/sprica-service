@@ -9,18 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>provider</artifactId>
+    <artifactId>model-provider</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.wtrue.sprica</groupId>
-            <artifactId>biz</artifactId>
+            <artifactId>model-biz</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.wtrue.sprica</groupId>
-            <artifactId>export</artifactId>
+            <artifactId>model-export</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 

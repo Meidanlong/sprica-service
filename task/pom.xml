@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>task</artifactId>
+    <artifactId>model-task</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.wtrue.sprica</groupId>
-            <artifactId>biz</artifactId>
+            <artifactId>model-biz</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
