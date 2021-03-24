@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.wtrue.sprica</groupId>
             <artifactId>model-export</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
