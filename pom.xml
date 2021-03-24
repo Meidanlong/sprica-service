@@ -13,10 +13,10 @@
         <module>biz</module>
         <module>service</module>
         <module>task</module>
-        <!--<module>export</module>-->
         <module>domain</module>
         <module>common</module>
         <module>api</module>
+        <module>export</module>
     </modules>
 
     <packaging>pom</packaging>
