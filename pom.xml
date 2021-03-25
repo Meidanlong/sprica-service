@@ -34,7 +34,6 @@
 
     <dependencyManagement>
         <dependencies>
-
             <!--Spring-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -63,19 +62,20 @@
             <!--wtrue-->
             <dependency>
                 <groupId>com.wtrue.sprica</groupId>
-                <artifactId>model-common</artifactId>
-                <version>${wt-model-common.version}</version>
-            </dependency>
-
-            <!--other-->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
+                <artifactId>model-export</artifactId>
+                <version>1.0.1-20210324.032838-1</version>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
