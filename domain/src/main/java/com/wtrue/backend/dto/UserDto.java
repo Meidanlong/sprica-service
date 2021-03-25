@@ -1,5 +1,6 @@
 package com.wtrue.backend.dto;
 
+import com.wtrue.sprica.common.domain.BaseObject;
 import lombok.Data;
 
 import java.util.Date;
@@ -10,7 +11,7 @@ import java.util.Date;
  * @date: 2021/3/15 2:03 PM
  */
 @Data
-public class UserDto {
+public class UserDto extends BaseObject {
 
     private Integer id;
 

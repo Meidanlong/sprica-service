@@ -29,7 +29,8 @@
         <spring-boot.version>2.1.13.RELEASE</spring-boot.version>
         <lombok.version>1.18.12</lombok.version>
         <maven.version>3.6.0</maven.version>
-        <wt-model-common.version>1.0.1-SNAPSHOT</wt-model-common.version>
+        <wt-model-common.version>1.0.2-SNAPSHOT</wt-model-common.version>
+        <sprica-common.version>1.0.0-SNAPSHOT</sprica-common.version>
     </properties>
 
     <dependencyManagement>
@@ -64,6 +65,12 @@
                 <groupId>com.wtrue.sprica</groupId>
                 <artifactId>model-export</artifactId>
                 <version>${wt-model-common.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.wtrue.sprica</groupId>
+                <artifactId>common</artifactId>
+                <version>${sprica-common.version}</version>
             </dependency>
 
         </dependencies>

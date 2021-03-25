@@ -1,5 +1,6 @@
 package com.wtrue.backend.request;
 
+import com.wtrue.sprica.common.domain.BaseObject;
 import lombok.Data;
 
 /**
@@ -8,7 +9,7 @@ import lombok.Data;
  * @date: 2021/3/15 1:58 PM
  */
 @Data
-public class UserAddReq {
+public class UserAddReq extends BaseObject {
 
     private String userName;
 
