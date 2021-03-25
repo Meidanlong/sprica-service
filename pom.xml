@@ -63,7 +63,7 @@
             <dependency>
                 <groupId>com.wtrue.sprica</groupId>
                 <artifactId>model-export</artifactId>
-                <version>1.0.1-20210324.032838-1</version>
+                <version>${wt-model-common.version}</version>
             </dependency>
 
         </dependencies>
