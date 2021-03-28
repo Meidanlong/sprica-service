@@ -1,6 +1,6 @@
-package com.wtrue.backend.feign;
+package com.wtrue.backend.feign.service;
 
-import com.wtrue.backend.fallback.ModelServiceFallBack;
+import com.wtrue.backend.feign.fallback.ModelServiceFallBack;
 import com.wtrue.backend.request.UserAddReq;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

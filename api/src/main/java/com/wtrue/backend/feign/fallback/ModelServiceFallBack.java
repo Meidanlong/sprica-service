@@ -1,6 +1,6 @@
-package com.wtrue.backend.fallback;
+package com.wtrue.backend.feign.fallback;
 
-import com.wtrue.backend.feign.ModelService;
+import com.wtrue.backend.feign.service.ModelService;
 import com.wtrue.backend.request.UserAddReq;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;

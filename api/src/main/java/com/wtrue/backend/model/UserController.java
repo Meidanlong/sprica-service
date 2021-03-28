@@ -1,6 +1,6 @@
 package com.wtrue.backend.model;
 
-import com.wtrue.backend.feign.ModelService;
+import com.wtrue.backend.feign.service.ModelService;
 import com.wtrue.backend.request.UserAddReq;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
