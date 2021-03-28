@@ -1,6 +1,6 @@
 package com.wtrue.backend.model;
 
-import com.wtrue.backend.feign.ModelServer;
+import com.wtrue.backend.feign.ModelService;
 import com.wtrue.backend.request.UserAddReq;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,11 +19,11 @@ import javax.annotation.Resource;
 public class UserController {
 
     @Resource
-    private ModelServer modelServer;
+    private ModelService modelService;
 
     @PostMapping("add")
     public String add(@RequestBody UserAddReq req){
 
-        return modelServer.add(req);
+        return modelService.add(req);
     }
 }

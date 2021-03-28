@@ -11,6 +11,10 @@ spring:
       discovery:
         server-addr: 103.45.105.132:8848
 
+feign:
+  sentinel:
+    enabled: true
+
 swagger:
   title: Sprica-Model
   description: Sprica-Model后端Api文档，方便前端调用
