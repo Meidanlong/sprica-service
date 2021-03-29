@@ -12,4 +12,4 @@ target/
 /biz/target/*
 /task/target/*
 /export/target/*
-/apicd /target/*
+/api/target/*
