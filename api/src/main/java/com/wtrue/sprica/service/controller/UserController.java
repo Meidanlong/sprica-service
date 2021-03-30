@@ -1,4 +1,4 @@
-package com.wtrue.sprica.service.api;
+package com.wtrue.sprica.service.controller;
 
 import com.wtrue.sprica.service.feign.service.ModelService;
 import com.wtrue.sprica.service.request.UserAddReq;
