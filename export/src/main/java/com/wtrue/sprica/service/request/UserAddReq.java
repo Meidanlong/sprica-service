@@ -1,4 +1,4 @@
-package com.wtrue.backend.request;
+package com.wtrue.sprica.service.request;
 
 import com.wtrue.sprica.common.domain.BaseObject;
 import lombok.Data;

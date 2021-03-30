@@ -1,9 +1,9 @@
-package com.wtrue.backend.model;
+package com.wtrue.sprica.service.controller;
 
-import com.wtrue.backend.IUserBiz;
-import com.wtrue.backend.adapter.UserAdapter;
-import com.wtrue.backend.dto.UserDto;
-import com.wtrue.backend.request.UserAddReq;
+import com.wtrue.sprica.service.IUserBiz;
+import com.wtrue.sprica.service.adapter.UserAdapter;
+import com.wtrue.sprica.service.dto.UserDto;
+import com.wtrue.sprica.service.request.UserAddReq;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

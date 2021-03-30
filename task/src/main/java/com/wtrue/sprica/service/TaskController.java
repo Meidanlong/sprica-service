@@ -1,4 +1,4 @@
-package com.wtrue.backend;
+package com.wtrue.sprica.service;
 
 /**
  * @description:

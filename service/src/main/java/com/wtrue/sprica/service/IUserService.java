@@ -1,6 +1,6 @@
-package com.wtrue.backend;
+package com.wtrue.sprica.service;
 
-import com.wtrue.backend.dto.UserDto;
+import com.wtrue.sprica.service.dto.UserDto;
 
 /**
  * @description:
