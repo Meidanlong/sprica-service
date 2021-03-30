@@ -1,4 +1,4 @@
-package com.wtrue.sprica.service.api.feign.interceptor;
+package com.wtrue.sprica.service.feign.interceptor;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

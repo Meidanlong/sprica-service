@@ -1,6 +1,6 @@
-package com.wtrue.sprica.service.api.feign.fallback;
+package com.wtrue.sprica.service.feign.fallback;
 
-import com.wtrue.sprica.service.api.feign.service.ModelService;
+import com.wtrue.sprica.service.feign.service.ModelService;
 import com.wtrue.sprica.service.request.UserAddReq;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;

@@ -20,7 +20,7 @@ feign:
       default:
         loggerLevel: full
         requestInterceptors:
-          - com.wtrue.sprica.service.api.feign.interceptor.TokenRelayRequestInterceptor
+          - com.wtrue.sprica.service.feign.interceptor.TokenRelayRequestInterceptor
     httpclient:
       # 让feign使用apache httpclient做请求；而不是默认的urlconnection
       enabled: true
@@ -37,5 +37,15 @@ management:
   endpoint:
     health:
       show-details: always
+
+# Swagger
+swagger:
+  title: Sprica-Model-API
+  description: Sprica-Model后端Api文档，方便前端调用
+  author: wtrue
+  self-url: www.meidanlong.com
+  email: meidanlong@qq.com
+  version: 1.0.0-SNAPSHOT
+  web: www.sprica.cn
 
 

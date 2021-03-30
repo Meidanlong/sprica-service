@@ -1,6 +1,6 @@
-package com.wtrue.sprica.service.api.feign.service;
+package com.wtrue.sprica.service.feign.service;
 
-import com.wtrue.sprica.service.api.feign.fallback.ModelServiceFallBack;
+import com.wtrue.sprica.service.feign.fallback.ModelServiceFallBack;
 import com.wtrue.sprica.service.request.UserAddReq;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

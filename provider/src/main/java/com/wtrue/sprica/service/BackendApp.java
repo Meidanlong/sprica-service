@@ -9,7 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author: meidanlong
  * @date: 2021/3/5 5:40 PM
  */
-@MapperScan("com.wtrue.backend")
+@MapperScan("com.wtrue.sprica.service")
 @SpringBootApplication
 public class BackendApp {
 
