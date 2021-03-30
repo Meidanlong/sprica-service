@@ -10,7 +10,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @description:
+ * @description: Swagger文档，取各自application.yml配置。调用端口为：
+ *                  http://{ip}:{port}/doc.html
  * @author: meidanlong
  * @date: 2021/3/25 7:43 PM
  */
