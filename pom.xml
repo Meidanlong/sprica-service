@@ -60,7 +60,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--wtrue-->
+            <!--wtrue.sprica.model-->
             <dependency>
                 <groupId>com.wtrue.sprica</groupId>
                 <artifactId>model-export</artifactId>
@@ -76,13 +76,6 @@
             <groupId>com.wtrue.sprica</groupId>
             <artifactId>common</artifactId>
             <version>${sprica-common.version}</version>
-        </dependency>
-
-        <!--lombok-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
         </dependency>
 
     </dependencies>
