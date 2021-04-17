@@ -1,5 +1,6 @@
 package com.wtrue.sprica.service.controller;
 
+import com.wtrue.sprica.common.utils.ValidUtil;
 import com.wtrue.sprica.service.feign.service.ModelService;
 import com.wtrue.sprica.service.request.UserAddReq;
 import io.swagger.annotations.Api;
@@ -27,6 +28,13 @@ public class UserController {
     @PostMapping("add")
     @ApiOperation(value = "添加用户", notes = "添加用户", tags = { "用户模块" }, httpMethod = "POST", response = String.class)
     public String add(@RequestBody UserAddReq req){
+        ValidUtil valid = new ValidUtil()
+                .notNull("request", req)
+                .notNull("userName", req.getUserName())
+                .notNull("phone", req.getPhone());
+        if(!valid.isValid()){
+            return "wrong - " + valid.getMsg();
+        }
 
         return modelService.add(req);
     }
