@@ -3,25 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>model</artifactId>
-        <groupId>com.wtrue.sprica</groupId>
+        <artifactId>user-center</artifactId>
+        <groupId>com.wtrue</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>model-service</artifactId>
+    <artifactId>user-center.service</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.wtrue.sprica</groupId>
-            <artifactId>model-dao</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>com.wtrue</groupId>
+            <artifactId>user-center.dao</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.wtrue.sprica</groupId>
-            <artifactId>model-domain</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>com.wtrue</groupId>
+            <artifactId>user-center.domain</artifactId>
         </dependency>
     </dependencies>
 
