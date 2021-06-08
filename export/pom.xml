@@ -7,7 +7,7 @@
     <groupId>com.wtrue</groupId>
     <artifactId>user-center.export</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>

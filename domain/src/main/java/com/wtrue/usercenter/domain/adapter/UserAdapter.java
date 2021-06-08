@@ -1,8 +1,8 @@
 package com.wtrue.usercenter.domain.adapter;
 
+import com.wtrue.usercenter.dao.po.users.Users;
 import com.wtrue.usercenter.domain.dto.UserDto;
-import com.wtrue.sprica.service.po.users.Users;
-import com.wtrue.sprica.service.request.UserAddReq;
+import com.wtrue.usercenter.export.request.UserAddReq;
 
 /**
  * @description:

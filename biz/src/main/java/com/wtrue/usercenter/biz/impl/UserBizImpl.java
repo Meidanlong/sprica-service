@@ -1,8 +1,8 @@
 package com.wtrue.usercenter.biz.impl;
 
 import com.wtrue.usercenter.biz.IUserBiz;
-import com.wtrue.sprica.service.IUserService;
-import com.wtrue.sprica.service.dto.UserDto;
+import com.wtrue.usercenter.domain.dto.UserDto;
+import com.wtrue.usercenter.service.IUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -1,6 +1,7 @@
 package com.wtrue.usercenter.biz;
 
-import com.wtrue.sprica.service.dto.UserDto;
+
+import com.wtrue.usercenter.domain.dto.UserDto;
 
 /**
  * @description:

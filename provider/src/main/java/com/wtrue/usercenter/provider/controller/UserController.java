@@ -1,9 +1,9 @@
 package com.wtrue.usercenter.provider.controller;
 
 import com.wtrue.sprica.common.utils.ValidUtil;
-import com.wtrue.sprica.service.IUserBiz;
-import com.wtrue.sprica.service.adapter.UserAdapter;
-import com.wtrue.sprica.service.dto.UserDto;
+import com.wtrue.usercenter.biz.IUserBiz;
+import com.wtrue.usercenter.domain.adapter.UserAdapter;
+import com.wtrue.usercenter.domain.dto.UserDto;
 import com.wtrue.usercenter.export.request.UserAddReq;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

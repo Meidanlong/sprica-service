@@ -1,10 +1,10 @@
 package com.wtrue.usercenter.service.impl;
 
+import com.wtrue.usercenter.dao.dao.users.UsersMapper;
+import com.wtrue.usercenter.dao.po.users.Users;
+import com.wtrue.usercenter.domain.adapter.UserAdapter;
+import com.wtrue.usercenter.domain.dto.UserDto;
 import com.wtrue.usercenter.service.IUserService;
-import com.wtrue.sprica.service.adapter.UserAdapter;
-import com.wtrue.sprica.service.dao.users.UsersMapper;
-import com.wtrue.sprica.service.dto.UserDto;
-import com.wtrue.sprica.service.po.users.Users;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
