@@ -22,7 +22,7 @@
         </jdbcConnection>
 
         <!--实体-->
-        <javaModelGenerator targetPackage="com.wtrue.usercenter.dao.po.${moduleName}"
+        <javaModelGenerator targetPackage="com.wtrue.sprica.backend.dao.po.${moduleName}"
                             targetProject="src/main/java"/>
 
         <!--mapper.xml-->
@@ -30,7 +30,7 @@
                          targetProject="src/main/resources"/>
 
         <!--mapper接口-->
-        <javaClientGenerator targetPackage="com.wtrue.usercenter.dao.${moduleName}"
+        <javaClientGenerator targetPackage="com.wtrue.sprica.backend.dao.${moduleName}"
                              targetProject="src/main/java"
                              type="XMLMAPPER"/>
 

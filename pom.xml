@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wtrue</groupId>
-    <artifactId>user-center</artifactId>
-    <name>user-center</name>
-    <description>User Center</description>
+    <artifactId>sprica.backend</artifactId>
+    <name>Sprica-Backend</name>
+    <description>Sprica 后端代码模版</description>
 
     <modules>
         <module>dao</module>
@@ -72,47 +72,47 @@
             <!--project-->
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.api</artifactId>
+                <artifactId>sprica.backend.api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.biz</artifactId>
+                <artifactId>sprica.backend.biz</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.common</artifactId>
+                <artifactId>sprica.backend.common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.dao</artifactId>
+                <artifactId>sprica.backend.dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.domain</artifactId>
+                <artifactId>sprica.backend.domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.provider</artifactId>
+                <artifactId>sprica.backend.provider</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.service</artifactId>
+                <artifactId>sprica.backend.service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.task</artifactId>
+                <artifactId>sprica.backend.task</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.wtrue</groupId>
-                <artifactId>user-center.export</artifactId>
+                <artifactId>sprica.backend.export</artifactId>
                 <version>${user-center.export.version}</version>
             </dependency>
 
