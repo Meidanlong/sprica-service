@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: model-api
+    name: sprica-backend-api
   cloud:
     nacos:
       discovery:
@@ -40,8 +40,8 @@ management:
 
 # Swagger
 swagger:
-  title: Sprica-Model-API
-  description: Sprica-Model后端Api文档，方便前端调用
+  title: Sprica-Backend-API
+  description: Sprica后端Api文档，方便前端调用
   author: wtrue
   self-url: www.meidanlong.com
   email: meidanlong@qq.com

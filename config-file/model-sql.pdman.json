@@ -641,9 +641,9 @@
         "defaultDB": true,
         "properties": {
           "driver_class_name": "com.mysql.cj.jdbc.Driver",
-          "url": "jdbc:mysql://localhost:3306/model?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC",
-          "password": "root123",
-          "username": "root",
+          "url": "jdbc:mysql://ip:host/sprica?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC",
+          "password": "password",
+          "username": "name",
           "customer_driver": "/Users/meidanlong/Downloads/mysql/mysql-connector-java-8.0.16.jar"
         }
       }

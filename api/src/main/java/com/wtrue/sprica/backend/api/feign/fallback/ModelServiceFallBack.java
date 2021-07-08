@@ -1,7 +1,7 @@
 package com.wtrue.sprica.backend.api.feign.fallback;
 
 import com.wtrue.sprica.backend.api.feign.service.ModelService;
-import com.wtrue.sprica.service.request.UserAddReq;
+import com.wtrue.sprica.backend.export.request.UserAddReq;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

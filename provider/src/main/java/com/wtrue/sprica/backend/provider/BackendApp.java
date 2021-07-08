@@ -2,6 +2,7 @@ package com.wtrue.sprica.backend.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
@@ -9,8 +10,9 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author: meidanlong
  * @date: 2021/3/5 5:40 PM
  */
-@MapperScan("com.wtrue.sprica.service")
 @SpringBootApplication
+@ComponentScan(value = "com.wtrue.sprica.backend")
+@MapperScan("com.wtrue.sprica.backend.service")
 public class BackendApp {
 
     public static void main(String[] args) {

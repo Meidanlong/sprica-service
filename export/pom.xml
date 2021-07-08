@@ -11,14 +11,14 @@
 
     <distributionManagement>
         <repository>
-            <id>wtrue-model-hosted</id>
+            <id>wtrue-hosted</id>
             <name>Wtrue Nexus Release Repository</name>
-            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted/</url>
+            <url>http://ip:host/repository/wtrue-hosted/</url>
         </repository>
         <snapshotRepository>
-            <id>wtrue-model-hosted-snapshot</id>
+            <id>wtrue-hosted-snapshot</id>
             <name>Wtrue Nexus Snapshot Repository</name>
-            <url>http://e61b9f2eea195756.natapp.cc:2286/repository/wtrue-model-hosted-snapshot/</url>
+            <url>http://ip:host/repository/wtrue-hosted-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
